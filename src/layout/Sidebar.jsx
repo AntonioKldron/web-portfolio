@@ -28,10 +28,6 @@ const Sidebar = () => {
       <SidebarButton icon={AiOutlineBulb} to="/ideas" label="Ideas" />
       <SidebarButton icon={AiOutlineInbox} to="/portfolio" label="Portfolio" />
       <SidebarButton icon={AiOutlineRead} to="/education" label="Education" />
-
-      <div className="flex-grow flex items-end w-0.5 mb-4">
-        <div className="w-full h-10 bg-blue-500 rounded-full"></div>
-      </div>
     </aside>
   );
 };
