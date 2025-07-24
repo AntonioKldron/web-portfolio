@@ -1,14 +1,15 @@
-import { useState } from 'react';
-import HeaderMain from "../layout/header.jsx";
-import SobreMiPage from '../components/sobreMi.jsx';
-import '../style/styles.css'; 
+import React from 'react';
+import SobreMiPage from '../components/sobreMi.jsx'; // Adjust path if needed
+import Sidebar from '../layout/Sidebar.jsx'; // Ensure this path is correct
 
 export default function Index() {
   return (
     <>
-      <HeaderMain/>
-      <SobreMiPage/>
-      <h1>Hola Mundo</h1>
+      <SobreMiPage />
+      <SobreMiPage />
+      <SobreMiPage />
+      <SobreMiPage />
+      <Sidebar />
     </>
   );
 }

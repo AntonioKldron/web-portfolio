@@ -16,7 +16,7 @@ export default function SobreMiSection() {
       {/* Texto */}
       <div className="max-w-xl text-center md:text-left">
         <h2 className="text-4xl font-bold mb-4 text-blue-400 tracking-wide">Sobre Mí</h2>
-        <p className="text-cyan-300 text-lg leading-relaxed font-semibold">
+        <p className="text-white text-lg leading-relaxed font-semibold">
           Ingeniero en Sistemas con experiencia en desarrollo backend, APIs REST y bases de datos. 
           Especializado en integración ERP automotriz con Django y Docker. Conocimientos en React, Angular y DevOps. 
           Apasionado por aprender y crear soluciones eficientes.
