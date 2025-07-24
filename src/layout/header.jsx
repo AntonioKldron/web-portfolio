@@ -14,7 +14,8 @@ export default function HeaderMain() {
   };
 
   return (
-    <header className="bg-gray-900 text-white shadow-lg font-sans sticky top-0 z-50">
+    <header className="bg-gray-900 text-white shadow-lg font-sans sticky top-0 z-50
+                   h-auto md:h-[10vh]">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Nombre */}
         <div className="text-xl font-bold tracking-wide">José Antonio Cornelio Calderón</div>
