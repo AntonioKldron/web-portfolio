@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../pages/App.jsx";
+import Index from "../pages/index.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -7,8 +7,7 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: 
-        <><App /><App /></>,
+        element: <Index />,
       },
     ],
   },
