@@ -3,15 +3,14 @@ import React from 'react';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'; // Import Link, useMatch, useResolvedPath for routing
 
 const SidebarButton = ({ icon: IconComponent, to, label }) => {
-  // Determine if the current route matches this button's 'to' prop
   let resolved = useResolvedPath(to);
-  let match = useMatch({ path: resolved.pathname, end: true }); // 'end: true' for exact match
+  let match = useMatch({ path: resolved.pathname, end: true }); 
 
   // Define colors based on active state
-  const activeBgColor = 'bg-blue-500'; // Light blue for active
-  const inactiveBgColor = 'bg-gray-700'; // Gray for inactive
-  const activeIconColor = 'text-white';
-  const inactiveIconColor = 'text-gray-400';
+  const activeBgColor = 'bg-slate-500'; 
+  const inactiveBgColor = 'bg-slate-100'; 
+  const activeIconColor = 'text-slate';
+  const inactiveIconColor = 'text-slate-400';
 
   return (
     <Link

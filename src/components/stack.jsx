@@ -22,7 +22,7 @@ export default function StackSection() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true, // <-- Asegúrate de que esto esté en 'true'
-    autoplaySpeed: 1000, // <-- Velocidad de cambio del carrusel (1 segundo)
+    autoplaySpeed: 4000, // <-- Velocidad de cambio del carrusel (1 segundo)
     arrows: false, // <-- Botones de navegación ocultos
     pauseOnHover: true, // <-- Pausa el carrusel al pasar el ratón por encima
     responsive: [
@@ -43,8 +43,7 @@ export default function StackSection() {
       items: [
         { icon: <SiJavascript />, name: "JavaScript" },
         { icon: <SiPython />, name: "Python" },
-        { icon: <TbSql />, name: "SQL" },
-        { icon: <SiDotnet />, name: "C# / .NET" },
+        { icon: <SiDotnet />, name: "C#" },
       ],
     },
     {
@@ -54,7 +53,7 @@ export default function StackSection() {
         { icon: <FaAngular />, name: "Angular" },
         { icon: <SiDjango />, name: "Django" },
         { icon: <MdOutlineDataUsage />, name: "Django REST Framework" },
-        { icon: <SiDotnet />, name: ".NET DLLs" },
+        { icon: <SiDotnet />, name: ".NET" },
       ],
     },
     {
