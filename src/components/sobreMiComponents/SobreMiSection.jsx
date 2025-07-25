@@ -14,10 +14,13 @@ export default function SobreMiSection() {
       </div>
 
       {/* Texto */}
-      <div className="max-w-xl text-center md:text-left">
-        <h2 className="text-4xl font-bold mb-4 text-blue-400 tracking-wide">Sobre Mí</h2>
-        <p className="text-white text-lg leading-relaxed font-semibold">
-        Apasionado por la tecnología y el aprendizaje continuo. Disfruto crear soluciones útiles, mejorar procesos y crecer tanto personal como profesionalmente.
+      <div className="max-xl text-center md:text-left">
+        <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-wide text-blue-400">
+          Soy <span className="text-yellow-400 drop-shadow-md animate-pulse">José Antonio Cornelio Calderón</span>
+        </h2>
+        <p className="text-white text-lg leading-relaxed font-semibold text-justify">
+          Ingeniero en Sistemas especializado en desarrollo de software, con experiencia en la integración de sistemas mediante APIs REST, 
+          creación de ensamblados con DLLs en .NET, y administración de bases de datos con grandes volúmenes de información.
         </p>
       </div>
     </section>

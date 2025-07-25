@@ -1,14 +1,14 @@
 import React from 'react';
-import SobreMiPage from '../components/sobreMi.jsx'; // Adjust path if needed
-import Sidebar from '../layout/Sidebar.jsx'; // Ensure this path is correct
+import SobreMiPage from '../components/sobreMi.jsx'; 
+import StackSection from '../components/stack.jsx';
+import Sidebar from '../layout/Sidebar.jsx'; 
+
 
 export default function Index() {
   return (
     <>
       <SobreMiPage />
-      <SobreMiPage />
-      <SobreMiPage />
-      <SobreMiPage />
+      <StackSection />
       <Sidebar />
     </>
   );
